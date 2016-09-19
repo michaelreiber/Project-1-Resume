@@ -1,0 +1,102 @@
+body{
+    transition: 1s all;
+    font-family: digital-7;
+    background: black;
+    color: aqua;
+}
+
+.top{
+    width: 264px;
+    margin: auto
+}
+
+h1:hover{
+    transition: 1s all;
+    color: dodgerblue;
+}
+h1{
+    color: darkgoldenrod;
+    margin: auto;
+    background: radial-gradient(darkgoldenrod, black);
+    color: aqua;
+    padding: 20px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-family: digital-7;
+    transition: 1s all;
+}
+
+nav{
+    color: darkgoldenrod;
+    background-color: black;
+    color: aqua;
+    border: 5px darkgoldenrod dotted;
+    border-bottom-color: darkgoldenrod;
+    border-top-color: darkgoldenrod;
+    position: ;
+    bottom: 0px;
+    width: calc(100% - 40px);
+    margin: auto;
+    list-style: none;
+}
+
+#about{
+    transition: 1s all;
+}
+
+#about:hover{
+    transition: 1s all;
+    background-color: black;
+    border: solid 5px darkgoldenrod;
+    border-bottom-color: darkgoldenrod;
+    border-top-color: darkgoldenrod;
+    font-size: 16px;
+    color: dodgerblue;
+}
+
+ul:hover{
+    color: dodgerblue
+}
+
+ul{
+    transition: 1s all;
+    
+}
+
+.uofd{
+    height: 210px;
+    margin-left: 50px;
+    transition: 2s all;
+    border: 5px black solid;
+}
+
+.uofd:hover{
+    transition: 2s all;
+    border: solid 5px darkgoldenrod;
+    border-bottom-color: darkgoldenrod;
+    border-top-color: darkgoldenrod;
+}
+
+.loyola{
+    border: 5px black solid;
+    height: 190px;
+    transition: 2s all;
+}
+
+.loyola:hover{
+    transition: 2s all;
+    border: solid 5px darkgoldenrod;
+    border-bottom-color: darkgoldenrod;
+    border-top-color: darkgoldenrod;
+}
+
+.about:hover{
+    transition: 2s all;
+    background-color: black;
+    border: solid 5px darkgoldenrod;
+    border-bottom-color: darkgoldenrod;
+    border-top-color: darkgoldenrod;
+    font-size: 20px;
+    color: dodgerblue;
+}
